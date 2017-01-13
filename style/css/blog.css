@@ -1,0 +1,55 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    margin:  0px;
+    padding: 0px;
+    min-height: 360px;
+}
+
+#this-is-sparta
+{
+    position: relative;
+    top: 50%;
+    font-family: "PT Mono", monospace;
+    color: #000;
+    position: relative;
+    text-align: center;
+
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+#this-is-sparta .andrew
+{
+    max-width: 397px;
+    width: 80%;
+    height: auto;
+}
+
+#this-is-sparta .text p
+{
+    padding: 0px 20px;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+#this-is-sparta .links
+{
+
+}
+
+#this-is-sparta .links .back-link .arrow
+{
+    position: relative;
+}
+
+#this-is-sparta .links .back-link:hover .arrow
+{
+    left: -5px;
+}

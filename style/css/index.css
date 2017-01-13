@@ -1,0 +1,123 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    position: relative;
+    min-height: 100%;
+    margin:  0px;
+    padding: 0px;
+}
+
+#dude-image
+{
+    position: absolute;
+    bottom: 0px;
+    left:  10%;
+    width: 20%;
+    max-width: 212px;
+}
+
+#this-is-sparta
+{
+    position: relative;
+    padding: 10% 0px 18%;
+    text-align: center;
+}
+
+#this-is-sparta
+{
+    font-family: "PT Mono", monospace;
+    color: #000;
+}
+
+#this-is-sparta .logo
+{
+    display: inline-block;
+    position: relative;
+    width:  264px;
+    height: 83px;
+    margin-bottom: 30px;
+    background: url("../img/silin-logo.png") no-repeat left top;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#this-is-sparta .text
+{
+    margin-bottom: 40px;
+}
+
+#this-is-sparta .text p
+{
+    font-size: 18px;
+}
+
+#this-is-sparta .nav .item-list
+{
+    margin-top: 10px;
+    list-style: none;
+    margin:  0px;
+    padding: 0px;
+}
+
+#this-is-sparta .nav .item-list .item
+{
+    margin:  0px;
+    padding: 0px;
+}
+
+.logo:before,
+.logo:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    width:  6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.logo:before
+{
+    top:  14px;
+    left: 88px;
+}
+
+.logo:after
+{
+    top:   10px;
+    left: 124px;
+}
+
+.logo.hover:after
+{
+    -webkit-animation: jump .5s ease .1s;
+       -moz-animation: jump .5s ease .1s;
+}
+
+.logo.hover:before
+{
+    -webkit-animation: jump .5s;
+       -moz-animation: jump .5s;
+}
+
+@-webkit-keyframes jump
+{
+    0%   {-webkit-transform: translate(0px, 0px);}
+    50%  {-webkit-transform: translate(-5px, -18px);}
+    100% {-webkit-transform: translate(0px, 0px);}
+}
+
+@-moz-keyframes jump
+{
+    0%   {-moz-transform: translate(0px, 0px);}
+    50%  {-moz-transform: translate(-5px, -18px);}
+    100% {-moz-transform: translate(0px, 0px);}
+}
